@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" metadata-complete="false" version="3.0">
+  <display-name>Bank Sample</display-name>
+  <description>Bank Sample</description>
+  <servlet>
+    <servlet-name>index.jsp</servlet-name>
+    <jsp-file>/jsp/index.jsp</jsp-file>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>index.jsp</servlet-name>
+    <url-pattern>/BankSample/*</url-pattern>
+  </servlet-mapping>
+   <welcome-file-list>
+    <welcome-file>BankSample/WebContent/jsp/index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
