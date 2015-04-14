@@ -2,9 +2,9 @@ version: 0.0
 os: linux
 files:
    - source: /
-     destination: /var/www/html
+     destination: /var/lib/tomcat7/webapps
 permissions:
-   - object: /var/www/html
+   - object: /var/lib/tomcat7/webapps
      pattern: "**"
      owner: apache
      group: apache
