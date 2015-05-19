@@ -35,7 +35,7 @@
 				<form name="loginForm" action="/BankSample/Controller" method="post">
 			         <p><div class="label">Debit Amount</div>
 			         <input type="text" class="login"  required name="Amount"></p>
-			         <p align="right"><input type="submit" class="button_quiz" value="Submit"></p>
+			         <p align="right"><input type="submit" class="button_quiz" value="Get Balance"></p>
 				</form>
 			</div>
 		</div>	
